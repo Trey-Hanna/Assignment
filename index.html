@@ -5,54 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects</title>
     <style>
-        /* General Reset */
-        body, h1, ul, li, a {
-            margin: 0;
-            padding: 0;
-            text-decoration: none;
-            list-style: none;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Body Styling */
+        /* Center everything */
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            margin: 0;
             background-color: #f4f4f9;
-            color: #333;
+            font-family: Arial, sans-serif;
         }
 
-        /* Container Styling */
+        /* Container for content */
         .container {
             text-align: center;
-            max-width: 400px;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             background-color: #fff;
         }
 
-        /* Heading Styling */
+        /* Heading style */
         h1 {
             font-size: 2rem;
             margin-bottom: 20px;
             color: #444;
         }
 
-        /* List Styling */
+        /* List style */
         ul {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
+            list-style: none;
+            padding: 0;
         }
 
-        /* Link Styling */
+        /* Links style */
         a {
+            display: block;
             font-size: 1.2rem;
             color: #007BFF;
-            transition: color 0.3s ease;
+            margin: 10px 0;
+            text-decoration: none;
         }
 
         a:hover {
